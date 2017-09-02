@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmployeeManager.cs" />
+    <Compile Include="EmployeeModel.cs" />
+    <Compile Include="IEmployeeManager.cs" />
     <Compile Include="Infrastructure\EmployeeProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,22 +54,6 @@
     <ProjectReference Include="..\AutoMapperCommon\AutoMapperCommon.csproj">
       <Project>{eb054244-7ec3-4866-8378-9a5130c81670}</Project>
       <Name>AutoMapperCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperDomainContract\AutoMapperDomainContract.csproj">
-      <Project>{83660885-2c94-4109-bf5f-f34fabf4846d}</Project>
-      <Name>AutoMapperDomainContract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperDomainModel\AutoMapperDomainModel.csproj">
-      <Project>{b222d764-3d98-49fd-b149-0620ece12778}</Project>
-      <Name>AutoMapperDomainModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperRepositoryContract\AutoMapperRepositoryContract.csproj">
-      <Project>{df1c821e-da83-4b11-a61b-4d41090d0a8d}</Project>
-      <Name>AutoMapperRepositoryContract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperRepositoryModels\AutoMapperRepositoryModel.csproj">
-      <Project>{52140db7-5904-41f2-9b7e-add0657f447c}</Project>
-      <Name>AutoMapperRepositoryModel</Name>
     </ProjectReference>
     <ProjectReference Include="..\AutoMapperRepository\AutoMapperRepository.csproj">
       <Project>{ec8fd672-3c0a-466d-b398-d35ca752e234}</Project>

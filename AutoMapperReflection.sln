@@ -9,17 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperViewModel", "Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDomain", "AutoMapperDomain\AutoMapperDomain.csproj", "{1885ECF7-B868-4FE3-97AC-66E4DAE3AD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDomainContract", "AutoMapperDomainContract\AutoMapperDomainContract.csproj", "{83660885-2C94-4109-BF5F-F34FABF4846D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperRepository", "AutoMapperRepository\AutoMapperRepository.csproj", "{EC8FD672-3C0A-466D-B398-D35CA752E234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperRepositoryContract", "AutoMapperRepositoryContract\AutoMapperRepositoryContract.csproj", "{DF1C821E-DA83-4B11-A61B-4D41090D0A8D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperCommon", "AutoMapperCommon\AutoMapperCommon.csproj", "{EB054244-7EC3-4866-8378-9A5130C81670}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDomainModel", "AutoMapperDomainModel\AutoMapperDomainModel.csproj", "{B222D764-3D98-49FD-B149-0620ECE12778}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperRepositoryModel", "AutoMapperRepositoryModels\AutoMapperRepositoryModel.csproj", "{52140DB7-5904-41F2-9B7E-ADD0657F447C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EA0433A8-1A01-4287-88D2-7F7FF0DAFD57}"
 EndProject
@@ -43,30 +35,14 @@ Global
 		{1885ECF7-B868-4FE3-97AC-66E4DAE3AD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1885ECF7-B868-4FE3-97AC-66E4DAE3AD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1885ECF7-B868-4FE3-97AC-66E4DAE3AD26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83660885-2C94-4109-BF5F-F34FABF4846D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83660885-2C94-4109-BF5F-F34FABF4846D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83660885-2C94-4109-BF5F-F34FABF4846D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83660885-2C94-4109-BF5F-F34FABF4846D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC8FD672-3C0A-466D-B398-D35CA752E234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC8FD672-3C0A-466D-B398-D35CA752E234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8FD672-3C0A-466D-B398-D35CA752E234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8FD672-3C0A-466D-B398-D35CA752E234}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF1C821E-DA83-4B11-A61B-4D41090D0A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF1C821E-DA83-4B11-A61B-4D41090D0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF1C821E-DA83-4B11-A61B-4D41090D0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF1C821E-DA83-4B11-A61B-4D41090D0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB054244-7EC3-4866-8378-9A5130C81670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB054244-7EC3-4866-8378-9A5130C81670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB054244-7EC3-4866-8378-9A5130C81670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB054244-7EC3-4866-8378-9A5130C81670}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B222D764-3D98-49FD-B149-0620ECE12778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B222D764-3D98-49FD-B149-0620ECE12778}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B222D764-3D98-49FD-B149-0620ECE12778}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B222D764-3D98-49FD-B149-0620ECE12778}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52140DB7-5904-41F2-9B7E-ADD0657F447C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52140DB7-5904-41F2-9B7E-ADD0657F447C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52140DB7-5904-41F2-9B7E-ADD0657F447C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52140DB7-5904-41F2-9B7E-ADD0657F447C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0EE1FEBF-A52E-4EE8-ACC0-6E103FF03C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0EE1FEBF-A52E-4EE8-ACC0-6E103FF03C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EE1FEBF-A52E-4EE8-ACC0-6E103FF03C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU

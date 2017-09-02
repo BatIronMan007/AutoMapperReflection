@@ -26,7 +26,7 @@ namespace AutoMapperReflection.Infrastructure
                                       .InstancePerRequest();
 
             //Creating an Instance for the Mapper
-            //builder.RegisterInstance(new AutoMapperConfiguration().Configure()).As<IMapper>();
+            builder.RegisterInstance(new AutoMapperConfiguration().Configure()).As<IMapper>();
 
             builder.RegisterWebApiFilterProvider(GlobalConfiguration.Configuration);
 

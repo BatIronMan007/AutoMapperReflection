@@ -40,21 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
     <Compile Include="EmployeeRepository.cs" />
+    <Compile Include="IEmployeeRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutoMapperCommon\AutoMapperCommon.csproj">
       <Project>{EB054244-7EC3-4866-8378-9A5130C81670}</Project>
       <Name>AutoMapperCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperRepositoryContract\AutoMapperRepositoryContract.csproj">
-      <Project>{df1c821e-da83-4b11-a61b-4d41090d0a8d}</Project>
-      <Name>AutoMapperRepositoryContract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AutoMapperRepositoryModels\AutoMapperRepositoryModel.csproj">
-      <Project>{52140db7-5904-41f2-9b7e-add0657f447c}</Project>
-      <Name>AutoMapperRepositoryModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
